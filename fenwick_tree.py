@@ -1,4 +1,4 @@
-#Fenwick tree or
+#Fenwick tree 
 #Binary indexed tree
 
 class FenwickTree:
