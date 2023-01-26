@@ -1,5 +1,5 @@
-#Fenwick tree 
-#Binary indexed tree
+
+#Binary indexed tree or Fenwick tree 
 
 class FenwickTree:
 
@@ -15,7 +15,7 @@ class FenwickTree:
 	def range_sum(self,start,end):
 		return self.sum(end)-self.sum(start-1)
 		
-	#sum of the integers in the range [0:index]
+	#sum of the integers in the range [:index]
 	#O(logN) running time complexity
 	def sum(self,index):
 	
