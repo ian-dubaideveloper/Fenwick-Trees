@@ -60,7 +60,7 @@ class FenwickTree:
 		return index + (index&-index)
 
 
-	#index of the item on the right ()
+	#index of the item on the right (so the parent)
 	#O(1) running time complexity
 	def parent(self,index):
 		return index - (index&-index)
