@@ -34,7 +34,7 @@ class FenwickTree:
 		return sum
 
 	#constructing the Fenwick tree from the original array of integers
-	#O(NlogN) running time complexity
+	#O(NlogN) running time complexity (time comolexity)
 	def construct(self):
 
 		#consider all the items in the original array
