@@ -1,5 +1,7 @@
 
-#Binary indexed tree 
+
+
+#Binary indexed tree or
 #Fenwick tree 
 
 class FenwickTree:
