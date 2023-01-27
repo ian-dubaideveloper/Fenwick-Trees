@@ -40,7 +40,7 @@ class FenwickTree:
 	#O(NlogN) running time complexity (time comolexity)
 	def construct(self):
 
-		#consider all the items in the original  array
+		#consider all the items in the original array
 		for index in range(1,len(self.nums)+1):
 			self.update(index,self.nums[index-1])
 
